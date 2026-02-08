@@ -20,9 +20,7 @@ local function preGameLoadTasksAsync()
 end
 
 local function postGameLoadTasksAsync()
-	local Network = require(ReplicatedStorage.Source.Network)
-	
-	Network.clientSetupAsync()
+
 end
 
 preGameLoadTasksAsync()
